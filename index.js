@@ -10,10 +10,10 @@ submit.addEventListener('click', ()=>{
 
     if(input !== ""){
         if(!candidateInfo){
-            alert("Yes, your name is here");
+            alert("No, your name not is here");
         }
         else{
-            alert("Welcome");
+            alert("Welcome, your name is here");
         }
         
     }
