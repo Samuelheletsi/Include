@@ -4,13 +4,13 @@ const submit = document.querySelector('#submit');
 submit.addEventListener('click', ()=>{
     let input = document.querySelector('#name').value;
 
-    let candidate = ["Dzifa", "Sucre","Eve","Adam"];
+    let candidate = ["Dzifa", "Sucre","Eve","Adam","Heletsi","Kofi","Naomi"];
 
     let candidateInfo = candidate.includes(input);
 
     if(input !== ""){
         if(!candidateInfo){
-            alert("You are new here");
+            alert("Yes, your name is here");
         }
         else{
             alert("Welcome");
